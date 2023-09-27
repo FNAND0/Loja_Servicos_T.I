@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Styles/styles_loja.css">
+    <link rel="stylesheet" href="styles/styles_loja.css">
     <title>Serviços de T.I.</title>
 </head>
 <body>
@@ -28,21 +28,21 @@
     <section class="services">
         
         <div class="service">
-            <img src="/img/manutencao.png" alt="Serviço 1">
-            <h3>Suporte Remoto</h3>
-            <p>Faço Suporte via Anydesk</p><br>
+            <img src="img/manutencao.png" alt="Serviço 1">
+            <h3>Linpeza Preventiva</h3>
+            <p>Faço limpeza do pc e formatação com backup.</p><br>
             <a href="#" class="btn">Contratar</a>
         </div>
 
         <div class="service">
-            <img src="/img/redes.png" alt="Serviço 2">
+            <img src="img/redes.png" alt="Serviço 2">
             <h3>Suporte na Rede</h3>
             <p>Emplementação de firewall, dados em nuvem criptografado e suporte a equipamentos de rede.</p><br>
             <a href="#" class="btn">Contratar</a>
         </div>
 
         <div class="service">
-            <img src="/img/remoto.png" alt="Serviço 3">
+            <img src="img/remoto.png" alt="Serviço 3">
             <h3>Acesso Remoto</h3>
             <p>Suporte Remoto via TeamViewer, intalações de programas e remoçoes de malware.  </p>
             <a href="#" class="btn">Contratar</a>
