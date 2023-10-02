@@ -20,7 +20,7 @@
 
     <section class="hero">
         <h1>Contrate ou Ofereça um Serviço</h1>
-        <p>Nossa plataforma é focada na experiência do usuário, oferecendo um tecnico o mais proximo de voçê.</p>
+        <p>Nossa plataforma é focada na experiência do usuário, oferecendo um técnico mais proximo de você.</p>
     </section>
 
          <h2>Serviços Disponíveis</h2>
