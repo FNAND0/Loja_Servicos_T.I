@@ -15,28 +15,39 @@
     </header>
 
 <main class="centro">
-    <form class="center-box">
+    <form action="valida_login.php" class="center-box" method="post">
         <div>
             <h1>Login</h1>
         </div>
 
         <div class="box-input">
-            <input type="email" placeholder="Email">
+            <input name="email" type="email" placeholder="email">
         </div>
 
         <div class="box-input">
-            <input type="password" placeholder="Senha">
+            <input name="senha" type="password" placeholder="senha">
         </div>
 
         <div class="box-input">
-            <button class="entrar">Entrar</button>
+            <button name="entrar" type="submit" >Entrar</button>
         </div>
 
         <div class="box-input">
-            <p>não tem uma conta?
-                <a href="Cadastro.html">Cadastre-se</a>                    
+            <p>Cliqui aqui para
+                <a href="cadastro_cliente.php">Cadastre-se como cliente.</a>                  
             </p>
         </div>
+
+        <div class="box-input">
+
+             <p>Cliqui aqui para
+                <a href="cadastro_tecnico.php">Cadastre-se como técnico.</a>                  
+            </p>
+
+
+        <div>
+
+        
     </form>
 </main>
 
