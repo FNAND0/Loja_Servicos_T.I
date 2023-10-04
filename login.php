@@ -15,18 +15,25 @@
     </header>
 
 <main class="centro">
-    <form action="valida_login.php" class="center-box" method="post">
+    <form action="bd_services_ti.sql" class="center-box" method="post">
         <div>
             <h1>Login</h1>
         </div>
 
         <div class="box-input">
-            <input name="email" type="email" placeholder="email">
+            <input name="e_mail" type="e_mail" placeholder="E-mail">
         </div>
 
         <div class="box-input">
             <input name="senha" type="password" placeholder="senha">
         </div>
+
+        <? if(isset($_GET['login']) && $_GET['login'] == 'erro') { ?>
+        <div class='box-input'>
+            Usuário ou senha inválido(s)
+        </div>
+
+        <? } ?>
 
         <div class="box-input">
             <button name="entrar" type="submit" >Entrar</button>

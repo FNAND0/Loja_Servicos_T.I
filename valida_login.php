@@ -24,7 +24,7 @@
     if($cliente_autenticado){
         echo "Usuário Autenticado.";
     }else{
-        echo "Erro de Autenticação.";
+        header('Location: login.php?login=erro');
     }
 
 
